@@ -16,23 +16,17 @@ function App() {
     </div>
 
       <div>
-      <div className="bg-[#bebe] 
-          flex flex-col 
-          justify-between 
-          items-center 
-          rounded-xl 
-          bg-slate-500 h-[250px] w-3/12 m-10 text-center">
-            <h1>KORAY</h1>
-          </div>
 
-          <div className="bg-[#bebe] 
-          flex flex-col 
-          justify-between 
-          items-center 
-          rounded-xl 
-          bg-slate-500 h-[250px] w-3/12 m-10 text-center">
-            <h1>KORAY</h1>
-          </div>
+      <div className="m-10">
+        <img src="https://pbs.twimg.com/profile_images/1417052605776375813/Jc9RL5o7_400x400.jpg"
+        className="rounded-xl h-[200px] animate-pulse m-auto"/>
+      </div>
+
+      <div className="card">
+        <h1>KORAY</h1>
+        <p className="line-clamp-1 hover:line-clamp-none p-3">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+      </div>
+
       </div>
     
       

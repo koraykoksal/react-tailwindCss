@@ -3,3 +3,18 @@
 @tailwind utilities;
 
 /* yapıştırdığımız @tailwind base; @tailwind components; @tailwind utilities; Kodları Tailwind içerisindeki base component ve utilities classlarını kullanabileceğimizi gösteriyor.*/
+/* @layer base{
+    h1{
+        font-size: 2rem;
+    }
+
+    div{
+        background-color: purple;
+    }
+} */
+
+@layer components{
+    .card{
+        @apply bg-blue-500 flex flex-col justify-between  items-center rounded-xl h-[250px] w-3/12 m-10 text-center;
+    }
+}
