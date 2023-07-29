@@ -17,4 +17,8 @@
     .card{
         @apply bg-blue-500 flex flex-col justify-between  items-center rounded-xl h-[250px] w-3/12 m-10 text-center;
     }
+
+    .btn{
+        @apply bg-green-500 rounded-xl h-[250px] w-3/12 m-10 text-center;
+    }
 }
